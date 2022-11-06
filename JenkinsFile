@@ -6,7 +6,7 @@ pipeline{
 
         stage('Cloning from GitHub') {
                 steps {
-                    git branch: 'main', url: 'https://github.com/achraftawes/TP-Achat-devops.git'
+                    git branch: 'nardinemnari', url: 'https://github.com/achraftawes/TP-Achat-devops.git'
                 }
                 
             }
