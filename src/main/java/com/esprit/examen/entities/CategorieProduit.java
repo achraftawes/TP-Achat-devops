@@ -20,6 +20,7 @@ import lombok.Setter;
 @NoArgsConstructor
 public class CategorieProduit implements Serializable {
 
+	
 	/**
 	 * 
 	 */
@@ -32,4 +33,7 @@ public class CategorieProduit implements Serializable {
 	@OneToMany(mappedBy = "categorieProduit")
 	@JsonIgnore
 	private Set<Produit> produits;
+	
+
+	
 }
