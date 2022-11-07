@@ -20,6 +20,13 @@ import lombok.Setter;
 @NoArgsConstructor
 public class CategorieProduit implements Serializable {
 
+
+	public CategorieProduit(Long idCategorieProduit, String codeCategorie, String libelleCategorie) {
+		super();
+		this.idCategorieProduit = idCategorieProduit;
+		this.codeCategorie = codeCategorie;
+		this.libelleCategorie = libelleCategorie;
+	}
 	/**
 	 * 
 	 */
