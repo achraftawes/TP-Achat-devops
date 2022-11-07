@@ -22,7 +22,7 @@ services:
      - /home/mysql/data:/var/lib/mysql --user 1000
 
   spring_app:
-   image: chokrimohamed/devops:latest
+   image: chokrimohamed/springapp:latest
    container_name: devopsimage
    ports:
     - 8089:8089
